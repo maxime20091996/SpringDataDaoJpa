@@ -29,21 +29,6 @@ public class EleveService {
 	public List<Eleve> findByNom(String Nom){
 		return elevedao.findByNom(Nom);
 	}
-//	public void creerEleve(Eleve eleve) {
-//		elevedao.createStudent(new Eleve("TOUCHARD", "DAVID"));
-//	}
-
-//	public Eleve lireEleve(int id) {
-//		return elevedao.getEleveById(id);
-//	}
-//
-//	public void supprimerEleve(Eleve eleve) {
-//		elevedao.delete(eleve);
-//	}
-//
-//	public List<Eleve> getAll() {
-//		return elevedao.getAll();
-//	}
 
 	public void initialisation() {
 		System.out.println("Creation de l'objet service");
