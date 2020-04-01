@@ -1,9 +1,9 @@
 package eu.ensup.springjpa.service;
 
-import java.util.List;
-
 import eu.ensup.springjpa.dao.IEleveDao;
 import eu.ensup.springjpa.domaine.Eleve;
+
+import java.util.List;
 
 public class EleveService {
 
@@ -37,5 +37,4 @@ public class EleveService {
 	public void destruction() {
 		System.out.println("Destruction de l'objet service");
 	}
-
 }
